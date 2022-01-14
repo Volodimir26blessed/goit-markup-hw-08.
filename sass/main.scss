@@ -1,0 +1,25 @@
+// utils
+@import "./utils/variables";
+@import "./utils/placeholder";
+@import "./utils/hidden";
+
+// bace 
+@import "./bace/reset";
+@import "./bace/reset-section.scss";
+
+// layout
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/backgrop-modal";
+@import "./layout/quality-section";
+@import "./layout/photo-report-section";
+@import "./layout/foto-team";
+@import "./layout/permanent-clientss";
+@import "./layout/title-buttonss";
+@import "./layout/footer";
+
+//components
+@import "./components/fonts";
+
+@import "./components/container";
+@import "./components/section-padding";

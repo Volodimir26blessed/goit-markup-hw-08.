@@ -1,0 +1,136 @@
+/* портфолио */
+
+.section-buttons-mor {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.section-buttons-mor__section-list-buttons {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-buttons-mor__lisr-buttons:not(last-child) {
+  margin-right: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-buttons-mor__btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $color-main;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
+  justify-content: space-around;
+  transition: 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $color-white;
+    background-color: $color-accent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+      0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+
+.establishment-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-cards {
+  background: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 0;
+
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  &:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+}
+
+
+.container-cards__link-cards:hover .text-cubmenu {
+  transform: translateY(0);
+  transition: 250ms $timing-function;
+}
+
+.container-cards__submenu {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-cards__card {
+  display: block;
+  min-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.container-cards--text-cubmenu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(33, 150, 243, 0.9);
+  height: 296px;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: $color-white;
+  transform: translateY(101%);
+}
+
+.container-cards__establishment-cards-wrap {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+/*секция карточки товара */
+.name-progect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  cursor: pointer;
+}
+
+
+.container-cards__specification {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: $second-color;
+  cursor: pointer;
+}
+

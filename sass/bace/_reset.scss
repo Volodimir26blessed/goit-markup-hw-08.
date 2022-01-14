@@ -1,0 +1,39 @@
+/* обнуляем стили*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+*,
+::before ::after {
+  box-sizing: border-box;
+}
+
+.reset-point {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.reset-decoration {
+  text-decoration: none;
+}
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,KAAK,CAAC;EACJ,WAAW,EAAE,GAAG;CACjB;;AACD,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "../sass/bace/reset-section.scss"
+    ],
+    "names": [],
+    "file": "reset-section.css"
+}
